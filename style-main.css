@@ -1,0 +1,15 @@
+body { 
+    background-color: black;
+}
+.test {
+    color:red;
+}
+.paragraph{
+    color:white;
+}
+.paragraph-interesting{
+    color:lime;
+}
+.siteIcon{
+    margin-top: 120px;
+}
