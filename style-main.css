@@ -77,3 +77,8 @@ section {
 img{
     border-radius: 6px;
 }
+iframe{
+    display: block;
+    margin: auto;
+    border-radius: 10px;
+}
