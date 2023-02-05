@@ -1,9 +1,9 @@
 body { 
     margin: 0px;
     background-color: #020202;
-    background-image: url("assets/test.png");
+    background-image: url("assets/panorama.jpg");
     background-attachment: fixed;
-    background-size: fixed;
+    background-size:cover;
     background-repeat: no-repeat;
 }
 .main-page-image{
@@ -20,7 +20,7 @@ nav {
     margin-right: 50px;
     margin-top: 5px;
     align-items: center;
-    background-color: #0c0c0c;
+    background-color: #020b22;
 }
 nav a {
     width: 120px;
@@ -31,8 +31,8 @@ nav a {
     color: white;
     padding: 20px 10px;
     text-decoration: none;
-    font-size: 12px;
-    font-family: montserrat;
+    font-size: 24px;
+    font-family: le-murmure;
     font-weight: bold;
     line-height: var(--nav-height);
     text-align: center;
@@ -41,27 +41,28 @@ nav a {
 nav a:hover{ 
     cursor: pointer;
     text-shadow: white 0px 0px 10px;
-    background-color: #181818;
+    background-color: #ffee0085;
 }
 .main-text{
-    font-family: montserrat;
+    font-family: le-murmure;
     color:white;
     margin-bottom: 50px;
 }
 .social-media{
-    font-size:11.3px;
+    font-size:24.0px;
 }
 .container-items{
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: black;
+    background-color: transparent;
+    text-shadow: 1px 1px 2px black;
 }
 .container-blog{
     height: 100vh;
 }
 section { 
-    background-color: #111111;
+    background-color: #020b22;
     margin-left: 50px;
     margin-right: 50px;
     margin-top: 20px;
@@ -81,4 +82,19 @@ iframe{
     display: block;
     margin: auto;
     border-radius: 10px;
+}
+.instagram {
+    text-shadow: 1px 1px 2px black;
+    color: hotpink;
+}
+.telegram {
+    text-shadow: 1px 1px 2px black;
+    color: cyan;
+}
+.youtube { 
+    text-shadow: 1px 1px 2px black;
+    color: red;
+}
+.monobank {
+    color: #FFD700;
 }
