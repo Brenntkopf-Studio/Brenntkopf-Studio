@@ -1,20 +1,25 @@
-body { 
+body {
     margin: 0px;
     background-color: #020202;
     background-image: url("assets/panorama.jpg");
     background-attachment: fixed;
-    background-size:cover;
+    background-size: cover;
     background-repeat: no-repeat;
 }
-.main-page-image{
+
+.main-page-image {
     width: 256px;
     height: 256px;
 }
+
 nav {
     display: flex;
     justify-content: space-evenly;
     gap: 5px;
     height: 100px;
+    position: sticky;
+    top: 0px;
+    z-index: 10;
     margin-left: 50px;
     border-radius: 10px;
     margin-right: 50px;
@@ -22,11 +27,16 @@ nav {
     align-items: center;
     background-color: #a37208d3;
 }
+
 nav a {
     width: 120px;
-    border: 1px solid white;    
+    border: 1px solid white;
+    position: sticky;
+    top: 0px;
+    z-index: 10;
     border-color: white;
     border-radius: 3px;
+    background-color: #a37208d3;
     text-transform: uppercase;
     color: white;
     padding: 20px 10px;
@@ -38,30 +48,36 @@ nav a {
     text-align: center;
     transition: text-shadow 0.4s ease-in-out, background-color 0.4s ease-in-out;
 }
-nav a:hover{ 
+
+nav a:hover {
     cursor: pointer;
     text-shadow: white 0px 0px 10px;
     background-color: #ffee0085;
 }
-.main-text{
+
+.main-text {
     font-family: le-murmure;
-    color:white;
+    color: white;
     margin-bottom: 50px;
 }
-.social-media{
-    font-size:24.0px;
+
+.social-media {
+    font-size: 24.0px;
 }
-.container-items{
+
+.container-items {
     display: flex;
     flex-direction: column;
     align-items: center;
     background-color: transparent;
     text-shadow: 1px 1px 2px black;
 }
-.container-blog{
+
+.container-blog {
     height: 100vh;
 }
-section { 
+
+section {
     background-color: #a37208d3;
     margin-left: 50px;
     margin-right: 50px;
@@ -69,38 +85,47 @@ section {
     line-height: var(--nav-height);
     border-radius: 10px;
 }
+
 .image-center {
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 50%;
 }
-img{
+
+img {
     border-radius: 6px;
 }
-iframe{
+
+iframe {
     display: block;
     margin: auto;
     border-radius: 10px;
 }
+
 .instagram {
     text-shadow: 1px 1px 2px black;
     color: hotpink;
 }
+
 .telegram {
     text-shadow: 1px 1px 2px black;
     color: cyan;
 }
-.youtube { 
+
+.youtube {
     text-shadow: 1px 1px 2px black;
     color: red;
 }
+
 .monobank {
     color: #FFD700;
 }
+
 a {
-text-decoration: none
+    text-decoration: none
 }
+
 video {
     justify-content: center;
     display: flex;

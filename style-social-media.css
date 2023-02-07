@@ -15,6 +15,9 @@ nav {
     justify-content: space-evenly;
     gap: 5px;
     height: 100px;
+    position: sticky;
+    top: 0px;
+    z-index: 10;
     margin-left: 50px;
     border-radius: 10px;
     margin-right: 50px;
@@ -22,11 +25,16 @@ nav {
     align-items: center;
     background-color: #a37208d3;
 }
+
 nav a {
     width: 120px;
-    border: 1px solid white;    
+    border: 1px solid white;
+    position: sticky;
+    top: 0px;
+    z-index: 10;
     border-color: white;
     border-radius: 3px;
+    background-color: #a37208d3;
     text-transform: uppercase;
     color: white;
     padding: 20px 10px;
@@ -38,6 +46,7 @@ nav a {
     text-align: center;
     transition: text-shadow 0.4s ease-in-out, background-color 0.4s ease-in-out;
 }
+
 nav a:hover{ 
     cursor: pointer;
     text-shadow: white 0px 0px 10px;
